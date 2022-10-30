@@ -6,17 +6,17 @@ end
 
 
 ###  WRITE YOUR TEST CODE HERE ###
-author1 =Author.new("chamwada")
-citizen=Magazine.new("citizen", "nipashe")
-ntv=Magazine.new("ntv","nipashe")
-ktn=Magazine.new("ktn","uhalifu")
-leo=Article.new(chamwada,citizen,"ungwana")
-kesho=Article.new(chamwada,citizen,"raia")
-chamwada.add_article(citizen,"kioo")
-chamwada.add_article(citizen,"usanii")
-chamwada.add_article(citizen,"siasa")
-chamwada.add_article(ntv,"wizi")
-chamwada.add_article(ktn,"sanaa")
+author1 =Author.new("Chamwada")
+citizen=Magazine.new("Citizen", "nipashe")
+ntv=Magazine.new("Ntv","nipashe")
+ktn=Magazine.new("Ktn","uhalifu")
+leo=Article.new(Chamwada,citizen,"ungwana")
+kesho=Article.new(Chamwada,citizen,"raia")
+chamwada.add_article(Citizen,"kioo")
+chamwada.add_article(Citizen,"usanii")
+chamwada.add_article(Citizen,"siasa")
+chamwada.add_article(Ntv,"wizi")
+chamwada.add_article(Ktn,"sanaa")
 
 
 
