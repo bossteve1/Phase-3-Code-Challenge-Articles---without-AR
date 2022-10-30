@@ -16,6 +16,12 @@ class Magazine
   def contributors
     Article.all.filter{|article|article.magazine.name==@name}.map{|article|article.author}.uniq
   end
+
+  def self.find_by_name(name)
+    Magazine.all.find{|magazine|magazine.name==name}
+  end
+
+
   
 
 
